@@ -24,7 +24,7 @@ def validate_username(username):
     return username
 
 
-def validate_email(email): # noqa: F811
+def validate_email(email): #noqa:F811
     try:
         validate_email(email)
     except Exception:
