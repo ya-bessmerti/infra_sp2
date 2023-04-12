@@ -1,4 +1,4 @@
-## Проект YaMDb
+# Проект YaMDb
 
 Проект **YaMDb** собирает **отзывы (Review)** пользователей на **произведения (Titles)**. Произведения делятся на категории: "Книги", "Фильмы", "Музыка". Список **категорий (Category)** может быть расширен администратором.
 
@@ -94,5 +94,3 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input
 ```
 Проект запущен и доступен по адресу: [localhost](http://localhost/admin/)
-
-
